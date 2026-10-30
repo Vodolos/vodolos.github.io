@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agenda Ponent</title>
+<meta name="description" content="Agenda Ponent, l'agenda d'activitats del Segrià, el Pla d'Urgell, la Noguera i l'Urgell.">
+<style>
+  :root {
+    --bg: #FBF7F0; --text: #2B2320; --muted: #6B6058;
+    --accent: #B03D0C; --border: #E7DFD3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1C1613; --text: #F2E9DC; --muted: #B8AA9A;
+      --accent: #F2A65A; --border: #3A312B;
+    }
+  }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif; line-height: 1.6;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 64px 20px 96px; }
+  h1 { font-size: 1.9rem; margin: 0 0 8px; }
+  .clar { color: var(--muted); margin: 0 0 32px; }
+  ul { list-style: none; padding: 0; }
+  li { margin-bottom: 12px; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 0.85rem; font-family: system-ui, sans-serif;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Agenda Ponent</h1>
+  <p class="clar">Què es pot fer avui al Segrià, el Pla d'Urgell, la Noguera i l'Urgell.</p>
+  <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.jguerrero.agendalleida">L'aplicació a Google Play</a></li>
+    <li><a href="https://vodolos.github.io/agenda-ponent-privacitat/">Política de privacitat</a></li>
+    <li><a href="https://vodolos.github.io/agenda-ponent-privacitat/fonts.html">D'on surt la informació</a></li>
+  </ul>
+  <footer>
+    <p>Aplicació independent, feta per un particular. No està afiliada ni autoritzada per cap organisme públic.<br>
+    Contacte: <a href="mailto:agendaponent.runny812@passinbox.com">agendaponent.runny812@passinbox.com</a></p>
+  </footer>
+</div>
+</body>
+</html>
